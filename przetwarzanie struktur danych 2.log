@@ -1,0 +1,79 @@
+newtab?ie=UTF-8:8 SW registered
+const kontynenty = ['Europa', 'Azja', 'Antarktyda',
+'Afryka', 'Australia i Oceania', 'Ameryka Północna',
+'Ameryka Południowa']
+undefined
+kontynenty
+(7) ["Europa", "Azja", "Antarktyda", "Afryka", "Australia i Oceania", "Ameryka Północna", "Ameryka Południowa"]
+kontynenty.sort
+ƒ sort() { [native code] }
+kontynenty.sort()
+(7) ["Afryka", "Ameryka Południowa", "Ameryka Północna", "Antarktyda", "Australia i Oceania", "Azja", "Europa"]
+kontynenty.reverse()
+(7) ["Europa", "Azja", "Australia i Oceania", "Antarktyda", "Ameryka Północna", "Ameryka Południowa", "Afryka"]
+const renderA = kontynenty => {
+    kontynenty.sort();
+    kontynenty.reverse():
+VM3378:3 Uncaught SyntaxError: Unexpected token :
+const renderA = kontynenty => {
+    kontynenty.sort();
+    kontynenty.reverse();
+};
+undefined
+const renderA = kontynenty => {
+    kontynenty.sort();
+    kontynenty.reverse();
+}
+VM3396:1 Uncaught SyntaxError: Identifier 'renderA' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM3396:1
+const renderA = kontynenty => {
+    kontynenty.sort();
+    kontynenty.reverse();
+};
+VM3404:1 Uncaught SyntaxError: Identifier 'renderA' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM3404:1
+renderA(kontynenty)
+undefined
+kontynenty
+(7) ["Europa", "Azja", "Australia i Oceania", "Antarktyda", "Ameryka Północna", "Ameryka Południowa", "Afryka"]
+const renderA = kontynenty => {
+    console.log(kontynenty.sort());
+    console.log(kontynenty.reverse());
+};
+VM3673:1 Uncaught SyntaxError: Identifier 'renderA' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM3673:1
+const liczby = [1, 12, 13, 0, 2, 20, 9, 3, 22, 10, –2, 11];
+VM3676:1 Uncaught SyntaxError: Invalid or unexpected token
+const liczby = [1, 12, 13, 0, 2, 20, 9, 3, 22, 10, –2, 11]
+VM3683:1 Uncaught SyntaxError: Invalid or unexpected token
+const liczby = [1, 12, 13, 0, 2, 20, 9, 3, 22, 10, –2, 11 ]
+VM3695:1 Uncaught SyntaxError: Invalid or unexpected token
+const liczby = [1, 12, 13, 0 ,2, 20, 9, 3, 22, 10, -2, 11]
+undefined
+const renderB = myArray => {
+    console.log(myArray.sort((x,y) => x-y));
+    console.log(myArray.sort((x,y) => y-x));
+};
+undefined
+renderB(liczby)
+VM3970:2 (12) [-2, 0, 1, 2, 3, 9, 10, 11, 12, 13, 20, 22]
+VM3970:3 (12) [22, 20, 13, 12, 11, 10, 9, 3, 2, 1, 0, -2]
+undefined
+const renderA = myArray => {
+    console.log(myArray.sort();
+VM4090:2 Uncaught SyntaxError: missing ) after argument list
+const renderC = myArray => {
+    console.log(myArray.sort();
+VM4151:2 Uncaught SyntaxError: missing ) after argument list
+const renderC = myArray => {
+    console.log(myArray.sort());
+    console.log(myArray.reverse());;
+};
+undefined
+renderC(kontynenty)
+VM4232:2 (7) ["Afryka", "Ameryka Południowa", "Ameryka Północna", "Antarktyda", "Australia i Oceania", "Azja", "Europa"]
+VM4232:3 (7) ["Europa", "Azja", "Australia i Oceania", "Antarktyda", "Ameryka Północna", "Ameryka Południowa", "Afryka"]
+undefined

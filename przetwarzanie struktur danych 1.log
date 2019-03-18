@@ -1,0 +1,62 @@
+const kontynenty = ['Europa', 'Afryka', 'Ameryka Północna']
+undefined
+continents.sort()
+VM2136:1 Uncaught ReferenceError: continents is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2136:1
+kontynenty.sort()
+
+(3) ["Afryka", "Ameryka Północna", "Europa"]
+kontynenty.reverse()
+(3) ["Europa", "Ameryka Północna", "Afryka"]
+kontynenty
+(3) ["Europa", "Ameryka Północna", "Afryka"]
+kontynenty.length
+3
+const text = 'adidas'
+undefined
+typeof text
+"string"
+typeof kontynenty
+"object"
+text.length
+6
+const liczby []
+VM2408:1 Uncaught SyntaxError: Missing initializer in const declaration
+const liczby = [1, 4, 7, 9]
+undefined
+liczby
+(4) [1, 4, 7, 9]
+kontynenty.splice(1, 1)
+["Ameryka Północna"]
+kontynenty
+(2) ["Europa", "Afryka"]
+Array.isArray(kontynenty)
+true
+kontynenty instanceof Array
+    
+true
+const isArray = kontynenty =>
+kontynenty.constructor.toString().indexOf('Array')
+undefined
+isArray
+kontynenty =>
+kontynenty.constructor.toString().indexOf('Array')
+isArray(kontynenty)
+9
+constructor
+ƒ Window() { [native code] }
+constructor['']
+undefined
+kontynenty.constructor.toString
+ƒ toString() { [native code] }
+kontynenty.constructor.toString()
+"function Array() { [native code] }"
+kontynenty.constructor.toString
+ƒ toString() { [native code] }
+constructor.toString
+ƒ toString() { [native code] }
+constructor.toString(array)
+VM3004:1 Uncaught ReferenceError: array is not defined
+    at <anonymous>:1:22
+(anonymous) @ VM3004:1

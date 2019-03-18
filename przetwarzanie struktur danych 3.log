@@ -1,0 +1,43 @@
+const fruit = ['apple', 'pear', 'mango']\
+VM4371:1 Uncaught SyntaxError: Invalid or unexpected token
+const fruit = ['apple', 'pear', 'mango']
+undefined
+fruit.forEach( (element, index, array) => {
+    console.log(index)
+};
+VM4487:3 Uncaught SyntaxError: missing ) after argument list
+fruit.forEach( (element, index, array) => {
+    console.log(index)
+});
+VM4495:2 0
+VM4495:2 1
+VM4495:2 2
+undefined
+fruit.forEach( (element, index, array) => {
+    console.log(element)
+});
+VM4560:2 apple
+VM4560:2 pear
+VM4560:2 mango
+undefined
+fruit.forEach( (element, index, array) => {
+    console.log(Array)
+});
+VM4646:2 ƒ Array() { [native code] }
+VM4646:2 ƒ Array() { [native code] }
+VM4646:2 ƒ Array() { [native code] }
+undefined
+fruit.forEach( (element, index, array) => {
+    console.log(array)
+});
+VM4720:2 (3) ["apple", "pear", "mango"]
+VM4720:2 (3) ["apple", "pear", "mango"]
+VM4720:2 (3) ["apple", "pear", "mango"]
+undefined
+fruit.forEach( (element, index, array) => {
+    console.log(index + 1 + '. ' + element)
+});
+VM4825:2 1. apple
+VM4825:2 2. pear
+VM4825:2 3. mango
+undefined
